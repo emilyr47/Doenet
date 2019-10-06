@@ -1,2 +1,2 @@
 # DoenetCore
-Homepage for Doenet project.  Used for static HTM assignment in 4662W.
+Homepage for Doenet project.  Used for static HTML assignment in 4662W. :donut:
