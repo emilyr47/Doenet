@@ -249,6 +249,7 @@
     cursor: pointer;
   }
 
+
   #top-part {
     background: -webkit-radial-gradient(left top, circle cover, rgba(142, 233, 161, 0.9) 15%, rgba(118, 204, 175, 0.9) 50%, rgba(142, 233, 161, 0.9) 85%);
 
@@ -321,6 +322,12 @@
   .topnav a:hover {
     background: rgba(202, 235, 242, 0.4);
     color: black;
+  }
+
+  #logo {
+    width: 70px;
+    height: 70px;
+    margin-bottom: 50px;
   }
   
   /* Style the active link (or home/logo) */
