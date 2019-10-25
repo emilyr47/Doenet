@@ -1,0 +1,10 @@
+<!DOCTYPE doenet [
+<!ELEMENT article>
+<!ELEMENT sect1>
+<!ELEMENT sect2>
+<!ELEMENT sect3>
+<!ELEMENT anchor>
+<!ELEMENT link #PCDATA>
+<!ELEMENT row #PCDATA>
+<!ELEMENT #PCDATA>
+]>

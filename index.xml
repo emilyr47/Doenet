@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE structured SYSTEM "structured.dtd">
+<article lang="eng">
+  <sect1 id="container">
+<?xml-stylesheet type="text/css" href="styles/styles.css"?>
+    <row><cdn><comment>&lt;!--Bootstrap--&gt;</comment></cdn><cdn><comment>&lt;!--CSS--&gt;</comment></cdn><cdn><comment>&lt;!--Font Awesome--&gt;</comment></cdn><cdn><comment>&lt;!--Script--&gt;</comment></cdn>
+    <JS>document.body.className += ' fade-out';
+    $(function () {
+      $('body').removeClass('fade-out');
+    });
+    </JS>
+  <cdn><comment>&lt;!--Nav Bar--&gt;</comment></cdn></row>
+    <sect2 id="top-part">
+      <row/>
+      <sect3 id="topnav">
+        <row>
+          <anchor id="resume1"/>
+          <link linkend="">Doenet</link>
+          <link linkend="">
+            <cdn>
+              <comment>&lt;!-- Nav Links--&gt;</comment>
+            </cdn>
+          </link>
+          <link linkend=""> </link>
+        </row>
+        <sect4 id="myLinks">
+          <row><olink targetdocent="index.html">Home</olink> <olink targetdocent="timeline.html">Timeline</olink> </row>
+        </sect4>
+      </sect3>
+      <row><anchor id="resume"/>Doenet</row>
+      <row>
+        <anchor id="subtitle"/>
+      </row>
+    </sect2>
+    <row><anchor id="intro"/>Doenet is the name of a future open source math learning tool created by the College of Science and Engineering at the University of Minnesota - Twin Cities. that will eventually extend to other subjects, areas, and universities. The basic outline of the project has a similar feel to Canvas, Moodle, or other assignment tracking tools, yet it also incorporates a working editor that allows for mathematical graphing, problem solving, and interactive learning and test taking. The project is expected to take five years in total, with an open source launch set for January of 2021. The current project team consists of an upper-level math professor, a project manager, a full-time programmer, and three student developers. Once the tool is complete, the idea will be to have a self-sustaining team of students, instructors, content creators, and educational researchers that each play a role in making the tool more useful and functional.</row>
+    <row>
+      <anchor id="par1_home"/>
+    </row>
+    <sect2 id="reminder-card">
+      <title>Students</title>
+      <row><anchor id="card-content"/>Students will play an important role in the testing and use of Doenet as they use the tool to learn, keep track of assignment, and take exams. Initially, students at UMN will be able to use this tool for upper-level math courses, but the tool will eventually expand to more. Features unique to Doenet students will be contaxtual learning content, handwriting recognition, and performance-based exams. </row>
+    </sect2>
+    <sect2 id="Section1">
+      <title><anchor id="reminder-card"/>Instructors</title>
+      <row><anchor id="card-content1"/>Instructors, will be able to assign their studnets interactive activities, learning methods, and exams without fear of cheating or of not providing them with enough content. Doenet will serve as a library filled with past-proven successfull activities, and will hopefully make class time more about asking questions and additional than it will explaining assignments. </row>
+    </sect2>
+    <sect2 id="Section2">
+      <title><anchor id="reminder-card1"/>Content Creators</title>
+      <row><anchor id="card-content2"/>Content Creators will be in charge of creating and supplying content for the Doenet library. They will be able to directly impact students' learning and skill set as they develop lesson plans and interactive learning activities that will expand the Doenet tool.</row>
+    </sect2>
+    <sect2 id="Section3">
+      <title><anchor id="reminder-card2"/>Educational Researchers</title>
+      <row><anchor id="card-content3"/>Educational Researchers will be the sciencetists behind the Doenet operation. Because all learning within Doenet will be monitored for performance and student interaction, educational researchers will be able to analyze this data to determine how to best improve content and learning for students.</row>
+    </sect2>
+    <sect2 id="Section4">
+      <row><anchor id="container"/>document.body.className += ' fade-out';
+        $(function () {
+          $('body').removeClass('fade-out');
+        });
+      </row>
+    </sect2>
+    <row>Copyright© 2019 DoenetCore<inlinegraphic fileref="#img/logo.png" width="0.7862inch" depth="0.3929inch"/><anchor id="logo"/> </row>
+  </sect1>
+  <sect1>
+    <title>Students</title>
+    <row><anchor id="card-content"/>Students will play an important role in the testing and use of Doenet as they use the tool to learn, keep track of assignment, and take exams. Initially, students at UMN will be able to use this tool for upper-level math courses, but the tool will eventually expand to more. Features unique to Doenet students will be contaxtual learning content, handwriting recognition, and performance-based exams. </row>
+    <sect2 id="Section1">
+      <title><anchor id="reminder-card"/>Instructors</title>
+      <row><anchor id="card-content1"/>Instructors, will be able to assign their studnets interactive activities, learning methods, and exams without fear of cheating or of not providing them with enough content. Doenet will serve as a library filled with past-proven successfull activities, and will hopefully make class time more about asking questions and additional than it will explaining assignments. </row>
+    </sect2>
+  </sect1>
+  <sect1>
+    <title><anchor id="reminder-card"/>Instructors</title>
+    <row><anchor id="card-content1"/>Instructors, will be able to assign their studnets interactive activities, learning methods, and exams without fear of cheating or of not providing them with enough content. Doenet will serve as a library filled with past-proven successfull activities, and will hopefully make class time more about asking questions and additional than it will explaining assignments. </row>
+    <sect2 id="Section2">
+      <title><anchor id="reminder-card1"/>Content Creators</title>
+      <row><anchor id="card-content2"/>Content Creators will be in charge of creating and supplying content for the Doenet library. They will be able to directly impact students' learning and skill set as they develop lesson plans and interactive learning activities that will expand the Doenet tool.</row>
+    </sect2>
+  </sect1>
+  <sect1>
+    <title><anchor id="reminder-card1"/>Content Creators</title>
+    <row><anchor id="card-content2"/>Content Creators will be in charge of creating and supplying content for the Doenet library. They will be able to directly impact students' learning and skill set as they develop lesson plans and interactive learning activities that will expand the Doenet tool.</row>
+    <sect2 id="Section3">
+      <title><anchor id="reminder-card2"/>Educational Researchers</title>
+      <row><anchor id="card-content3"/>Educational Researchers will be the sciencetists behind the Doenet operation. Because all learning within Doenet will be monitored for performance and student interaction, educational researchers will be able to analyze this data to determine how to best improve content and learning for students.</row>
+    </sect2>
+  </sect1>
+  <sect1>
+    <title><anchor id="reminder-card2"/>Educational Researchers</title>
+    <row><anchor id="card-content3"/>Educational Researchers will be the sciencetists behind the Doenet operation. Because all learning within Doenet will be monitored for performance and student interaction, educational researchers will be able to analyze this data to determine how to best improve content and learning for students.</row>
+    <sect2 id="Section4">
+      <row><anchor id="container"/>document.body.className += ' fade-out';
+        $(function () {
+          $('body').removeClass('fade-out');
+        });
+      </row>
+    </sect2>
+    <row>Copyright© 2019 DoenetCore<inlinegraphic fileref="#img/logo.png" width="0.7862inch" depth="0.3929inch"/><anchor id="logo"/> </row>
+    <row>  var i = 0;
+  var txt = 'The Distributed Open Education Network';
+  var speed = 50;
+  function typeWriter() {
+    if (i &lt; txt.length) {
+      document.getElementById("subtitle").innerHTML += txt.charAt(i);
+      i++;
+      setTimeout(typeWriter, speed);
+    }
+  }
+  function myMenu() {
+    var x = document.getElementById("myLinks");
+    if (x.style.display === "block") {
+      x.style.display = "none";
+    } else {
+      x.style.display = "block";
+    }
+  }</row>
+  </sect1>
+</article>
