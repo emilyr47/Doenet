@@ -1,10 +1,16 @@
-<!DOCTYPE doenet [
-<!ELEMENT article>
-<!ELEMENT sect1>
-<!ELEMENT sect2>
-<!ELEMENT sect3>
-<!ELEMENT anchor>
-<!ELEMENT link #PCDATA>
-<!ELEMENT row #PCDATA>
-<!ELEMENT #PCDATA>
+<!DOCTYPE structured [
+<!ELEMENT structured>
+<!ELEMENT article (#PCDATA)>
+<!ELEMENT sect (#PCDATA)>
+<!ELEMENT row (#PCDATA)>
+<!ELEMENT cdn (#PCDATA)>
+<!ELEMENT cdn (#PCDATA)>
+<!ELEMENT comment (#PCDATA)>
+<!ELEMENT JS (#PCDATA)>
+<!ELEMENT sect2 (#PCDATA)>
+<!ELEMENT sect3 (#PCDATA)>
+<!ELEMENT anchor (#PCDATA)>
+<!ELEMENT link (#PCDATA)>
+<!ELEMENT sect4 (#PCDATA)>
+<!ELEMENT title (#PCDATA)>
 ]>
