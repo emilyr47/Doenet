@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <title>Doenet</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="icon" href="img/resume-favicon.png" type="image/x-icon">
+  <!--Bootstrap-->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+    integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+
+  <!--CSS-->
+  <link rel="stylesheet" type="text/css" href="styles/styles.css">
+
+  <!--Font Awesome-->
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css"
+    integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
+
+  <!--Script-->
+  <script src="https://code.jquery.com/jquery-3.4.1.min.js"
+    integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
+
+</head>
+
+<body onload="typeWriter()">
+  <script>document.body.className += ' fade-out';
+    $(function () {
+      $('body').removeClass('fade-out');
+    });
+  </script>
+
+  <div id="container">
+
+    <!--Nav Bar-->
+    <div id="top-part">
+    <div id="topnav" class="topnav">
+      <a href="#home" class="active" id="resume1">Doenet        
+
+        <link href="img/logo.png"></a>
+      <!-- Nav Links-->
+      <div id="myLinks">
+        <a href="index.html">Home</a>
+        <a href="timeline.html">Timeline</a>
+        <a href="contact.html">Contact</a>
+
+      </div>
+      <!--Nav Menu-->
+      <a href="javascript:void(0);" class="icon" onclick="myMenu()">
+        <i class="fa fa-bars"></i>
+      </a>
+    </div>
+    <h1 class="display-4" id="resume">Doenet</h1>
+
+    <p class="lead" id="subtitle"></p>
+    <hr class="my-4">
+  </div>
+  <form id="form">
+        <div class="row">
+          <div class="col">
+            <input type="text" class="form-control" placeholder="First name">
+          </div>
+          <div class="col">
+            <input type="text" class="form-control" placeholder="Last name">
+          </div>
+        </div>
+        <div class="row">
+            <div class="col">
+              <input type="text" class="form-control" placeholder="email@example.com">
+            </div>
+            <div class="col">
+              <input type="text" class="form-control" placeholder="Phone Number">
+            </div>
+          </div>
+    <div class="form-group">
+      <label for="exampleFormControlSelect1">Tell us about yourself</label>
+      <select class="form-control" id="exampleFormControlSelect1">
+        <option>I am an employee at the University of Minnesota</option>
+        <option>I am an interested developer</option>
+        <option>I am looking for job opportunities within this project</option>
+        <option>I would like to donate money to this project</option>
+        <option>I would simply like more information about this project</option>
+      </select>
+    </div>
+    <div class="form-group">
+      <label for="exampleFormControlSelect2">Is there someone specific you would like to reach?</label>
+      <select class="form-control" id="exampleFormControlSelect2">
+        <option>Project Manager</option>
+        <option>Full-Time Developer</option>
+        <option>Student Developers</option>
+        <option>Department of Mathematics</option>
+      </select>
+    </div>
+    <div class="form-group">
+      <label for="exampleFormControlTextarea1">Tell us more about what you are looking for so we can best respond to your request.</label>
+      <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+    </div>
+    <button>Submit</button>
+  </form>
+    <div id="container">
+      <script>document.body.className += ' fade-out';
+        $(function () {
+          $('body').removeClass('fade-out');
+        });
+      </script>
+
+
+    </div>
+    <footer>
+      Copyright© 2019 DoenetCore<br><img id="logo" src="img/logo.png">
+    </footer>
+  </div>
+</body>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.24.0/moment.min.js"></script>
+
+<script src="/js/job.js" type="text/javascript"></script>
+<script>
+  var i = 0;
+  var txt = 'The Distributed Open Education Network';
+  var speed = 50;
+  function typeWriter() {
+    if (i < txt.length) {
+      document.getElementById("subtitle").innerHTML += txt.charAt(i);
+      i++;
+      setTimeout(typeWriter, speed);
+    }
+  }
+  function myMenu() {
+    var x = document.getElementById("myLinks");
+    if (x.style.display === "block") {
+      x.style.display = "none";
+    } else {
+      x.style.display = "block";
+    }
+  }
+</script>
+</div>
+
+</html>

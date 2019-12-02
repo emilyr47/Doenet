@@ -430,7 +430,9 @@
   }
   
   #form {
-    background: rgba(202, 235, 242, 0.4);
+    background: rgba(202, 242, 212, 0.4);
+    padding: 15px;
+
   }
   
   #resume1 {
