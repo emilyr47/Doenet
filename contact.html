@@ -22,56 +22,40 @@
 
 </head>
 
-<body onload="typeWriter()">
-  <script>document.body.className += ' fade-out';
-    $(function () {
-      $('body').removeClass('fade-out');
-    });
-  </script>
-
+<body >
+ 
   <div id="container">
 
     <!--Nav Bar-->
     <div id="top-part">
-    <div id="topnav" class="topnav">
-      <a href="#home" class="active" id="resume1">Doenet        
+        <p style="font-family:'Lobster', cursive; color:#752042;"class="display-4" id="resume"><a href="index.html">D<img src="DoenetLogo.png" style="height:40px; width:30px;">enet</a></p>
 
-        <link href="img/logo.png"></a>
-      <!-- Nav Links-->
-      <div id="myLinks">
-        <a href="index.html">Home</a>
-        <a href="timeline.html">Timeline</a>
-        <a href="contact.html">Contact</a>
-
-      </div>
-      <!--Nav Menu-->
-      <a href="javascript:void(0);" class="icon" onclick="myMenu()">
-        <i class="fa fa-bars"></i>
-      </a>
-    </div>
-    <h1 class="display-4" id="resume">Doenet</h1>
+   
 
     <p class="lead" id="subtitle"></p>
     <hr class="my-4">
   </div>
-  <form id="form">
-        <div class="row">
-          <div class="col">
-            <input type="text" class="form-control" placeholder="First name">
-          </div>
-          <div class="col">
-            <input type="text" class="form-control" placeholder="Last name">
-          </div>
+  <form>
+      <div class="form-row">
+        <div class="form-group col-md-6">
+          <label for="inputEmail4">First Name</label>
+          <input type="email" class="form-control" id="inputEmail4" placeholder="Jane">
         </div>
-        <div class="row">
-            <div class="col">
-              <input type="text" class="form-control" placeholder="email@example.com">
-            </div>
-            <div class="col">
-              <input type="text" class="form-control" placeholder="Phone Number">
-            </div>
+        <div class="form-group col-md-6">
+          <label for="inputPassword4">Last Name</label>
+          <input type="password" class="form-control" id="inputPassword4" placeholder="Doe">
+        </div>
+      </div>
+      <div class="form-row">
+          <div class="form-group col-md-6">
+            <label for="inputEmail4">Phone Number</label>
+            <input type="email" class="form-control" id="inputEmail4" placeholder="(000)-000-000">
           </div>
-    <div class="form-group">
+          <div class="form-group col-md-6">
+            <label for="inputPassword4">Email</label>
+            <input type="password" class="form-control" id="inputPassword4" placeholder="email@example.com">
+          </div>
+           
       <label for="exampleFormControlSelect1">Tell us about yourself</label>
       <select class="form-control" id="exampleFormControlSelect1">
         <option>I am an employee at the University of Minnesota</option>
@@ -80,31 +64,20 @@
         <option>I would like to donate money to this project</option>
         <option>I would simply like more information about this project</option>
       </select>
-    </div>
-    <div class="form-group">
+    </div><br>
       <label for="exampleFormControlSelect2">Is there someone specific you would like to reach?</label>
       <select class="form-control" id="exampleFormControlSelect2">
         <option>Project Manager</option>
         <option>Full-Time Developer</option>
         <option>Student Developers</option>
         <option>Department of Mathematics</option>
-      </select>
-    </div>
-    <div class="form-group">
+      </select><br>
       <label for="exampleFormControlTextarea1">Tell us more about what you are looking for so we can best respond to your request.</label>
       <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
-    </div>
-    <button>Submit</button>
+    <br><button>Submit</button>
+    <form id="form">
+
   </form>
-    <div id="container">
-      <script>document.body.className += ' fade-out';
-        $(function () {
-          $('body').removeClass('fade-out');
-        });
-      </script>
-
-
-    </div>
     <footer>
       Copyright© 2019 DoenetCore<br>
     </footer>

@@ -207,6 +207,17 @@
     align-items: center;
     margin: 10px;
   }
+
+  a {
+    color: #752042;
+  }
+
+  a:hover {
+    color: #752042;
+    cursor: pointer;
+    text-decoration: none
+
+  }
   
   #reminder-card {
     overflow: hidden;
@@ -429,10 +440,20 @@
     padding-top: 50px;
   }
   
+  form {
+    background: rgba(202, 242, 212, 0.4);
+    padding: 15px;
+  }
+  
   #form {
     background: rgba(202, 242, 212, 0.4);
     padding: 15px;
 
+  }
+
+  .form {
+    background: rgba(202, 242, 212, 0.4);
+    padding: 15px;
   }
   
   #resume1 {
